@@ -1,0 +1,6 @@
+@MedicarePlus_HostAddress = http://localhost:5216
+
+GET {{MedicarePlus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

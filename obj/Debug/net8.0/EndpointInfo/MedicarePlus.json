@@ -1,0 +1,39 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MedicarePlus",
+    "version": "1.0"
+  },
+  "paths": {
+    "/WeatherForecast/GetWeatherForecast {Name }": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "parameters": [
+          {
+            "name": "Name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Name ",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "MedicarePlus.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast/GetWeatherForecast {Name }",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name ",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "wjQmuv7FtP76PU30yosH9G49IBi70AbsTHZKA3dpJe4=",
+  "Source": "MedicarePlus",
+  "BasePath": "_content/MedicarePlus",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

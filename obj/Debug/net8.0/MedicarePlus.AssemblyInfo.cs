@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedicarePlus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9db772b5797068bc6890d1c9df928f5225585319")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedicarePlus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedicarePlus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

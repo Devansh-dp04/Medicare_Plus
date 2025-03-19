@@ -170,3 +170,7 @@ D:\Medicare+\MedicarePlus\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtim
 D:\Medicare+\MedicarePlus\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Medicare+\MedicarePlus\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\Medicare+\MedicarePlus\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Medicare+\MedicarePlus\obj\Debug\net8.0\MedicarePlus.sourcelink.json
+D:\Medicare+\MedicarePlus\bin\Debug\net8.0\AutoMapper.dll
+D:\Medicare+\MedicarePlus\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Medicare+\MedicarePlus\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,4 +1,5 @@
-﻿using MedicarePlus.Models;
+﻿
+using MedicarePlus.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace MedicarePlus.Data
@@ -6,7 +7,6 @@ namespace MedicarePlus.Data
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
-
         public DbSet<Role> Roles { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
@@ -66,7 +66,8 @@ namespace MedicarePlus.Data
                 .WithMany(a => a.PatientNotes)
                 .HasForeignKey(pn => pn.AppointmentId)
                 .OnDelete(DeleteBehavior.Cascade);
+               
         }
-
+        
     }
 }

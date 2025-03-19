@@ -1,20 +1,52 @@
 [
   {
-    "ContainingType": "MedicarePlus.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast/GetWeatherForecast {Name }",
+    "ContainingType": "MedicarePlus.Controllers.AuthController",
+    "Method": "AddDoctor",
+    "RelativePath": "Auth/add-doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorPostRequestDto",
+        "Type": "MedicarePlus.DTOs.DoctorPostRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MedicarePlus.Controllers.AuthController",
+    "Method": "Generate_New_Password",
+    "RelativePath": "Auth/Generate-new-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "passwordGeneration",
+        "Type": "MedicarePlus.DTO.PasswordGenerationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MedicarePlus.Controllers.AuthController",
+    "Method": "Sign_in_User",
+    "RelativePath": "Auth/sign-in",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Name",
+        "Name": "Email",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "Name ",
-        "Type": "",
+        "Name": "password",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
